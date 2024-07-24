@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat May  4 01:21:17 2024
+[*]
+[dumpfile] "/home/amyherr/Documents/Digitales 2/Tarea2/code/Tarea2yaterminada/retardos/resultados.vcd"
+[dumpfile_mtime] "Sat May  4 01:19:22 2024"
+[dumpfile_size] 14503
+[savefile] "/home/amyherr/Documents/Digitales 2/Tarea2/code/Tarea2yaterminada/retardos/ondas_retardos.gtkw"
+[timestart] 0
+[size] 1850 1016
+[pos] -1 -1
+*-7.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] controller_tb.
+[treeopen] controller_tb.U0.
+[sst_width] 233
+[signals_width] 219
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+controller_tb.U0.reset
+controller_tb.U0.clk
+controller_tb.U0.sensor_entrance
+@22
+controller_tb.U0.input_password[7:0]
+@28
+controller_tb.U0.gate_open
+controller_tb.U0.current_state[2:0]
+controller_tb.U0.sensor_exit
+controller_tb.U0.gate_close
+@24
+controller_tb.U0.count0[2:0]
+@28
+controller_tb.U0.alarm_block
+controller_tb.U0.alarm_wrong_pin
+[pattern_trace] 1
+[pattern_trace] 0
