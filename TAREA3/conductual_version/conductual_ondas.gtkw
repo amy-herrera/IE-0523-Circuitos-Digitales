@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat May 18 22:27:57 2024
+[*]
+[dumpfile] "/home/amyherr/Documents/Digitales 2/Tarea3/PruebaTarea3/TAREA3CAJEROYATERMINADO/conductual_version/testbench.vcd"
+[dumpfile_mtime] "Sat May 18 21:19:45 2024"
+[dumpfile_size] 7525
+[savefile] "/home/amyherr/Documents/Digitales 2/Tarea3/PruebaTarea3/TAREA3CAJEROYATERMINADO/conductual_version/conductual_ondas.gtkw"
+[timestart] 507
+[size] 1850 1016
+[pos] -101 -101
+*-6.000000 515 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] controller_tb.
+[sst_width] 233
+[signals_width] 226
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+controller_tb.U0.RESET
+controller_tb.U0.CLK
+controller_tb.U0.TARJETA_RECIBIDA
+@22
+controller_tb.U0.PIN[15:0]
+controller_tb.U0.DIGITO[3:0]
+@28
+controller_tb.U0.DIGITO_STB
+@24
+controller_tb.U0.contador_digitos[2:0]
+@22
+controller_tb.U0.pin_interno[15:0]
+@24
+controller_tb.U0.INTENTOS[1:0]
+@28
+controller_tb.U0.PIN_INCORRECTO
+controller_tb.U0.ADVERTENCIA
+controller_tb.U0.BLOQUEO
+controller_tb.U0.TIPO_TRANS
+@24
+controller_tb.U0.MONTO[31:0]
+@28
+controller_tb.U0.MONTO_STB
+@24
+controller_tb.U0.BALANCE[63:0]
+@28
+controller_tb.U0.BALANCE_ACTUALIZADO
+controller_tb.U0.ENTREGAR_DINERO
+controller_tb.U0.FONDOS_INSUFICIENTES
+@24
+controller_tb.U0.estado_actual[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
