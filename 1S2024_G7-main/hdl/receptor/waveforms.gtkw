@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Jul  3 16:47:07 2024
+[*]
+[dumpfile] "/home/juanpa/Documents/UCR/digitales_2/1S2024_G7/hdl/receptor/out.vcd"
+[dumpfile_mtime] "Wed Jul  3 16:41:31 2024"
+[dumpfile_size] 8983
+[savefile] "/home/juanpa/Documents/UCR/digitales_2/1S2024_G7/hdl/receptor/waveforms.gtkw"
+[timestart] 0
+[size] 1224 721
+[pos] -27 -24
+*-6.177156 165 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] reciever_tb.
+[sst_width] 297
+[signals_width] 252
+[sst_expanded] 1
+[sst_vpaned_height] 200
+@28
+reciever_tb.reciever_inst.clk
+reciever_tb.reciever_inst.rst
+@22
+reciever_tb.reciever_inst.RXD[7:0]
+reciever_tb.reciever_inst.state[7:0]
+reciever_tb.reciever_inst.x[9:0]
+reciever_tb.reciever_inst.tstate[3:0]
+@28
+reciever_tb.reciever_inst.check_end
+reciever_tb.reciever_inst.running_disparity
+reciever_tb.reciever_inst.next_disparity
+[pattern_trace] 1
+[pattern_trace] 0

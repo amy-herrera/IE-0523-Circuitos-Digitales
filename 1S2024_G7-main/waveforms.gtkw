@@ -1,0 +1,54 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sat Jul  6 18:37:46 2024
+[*]
+[dumpfile] "/home/juanpa/Documents/UCR/digitales_2/1S2024_G7/bin/out.vcd"
+[dumpfile_mtime] "Sat Jul  6 18:34:35 2024"
+[dumpfile_size] 31717
+[savefile] "/home/juanpa/Documents/UCR/digitales_2/1S2024_G7/waveforms.gtkw"
+[timestart] 0
+[size] 1224 721
+[pos] -27 -24
+*-5.455692 514 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.reciever_inst.
+[treeopen] testbench.synchronization_inst.
+[sst_width] 297
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 201
+@28
+testbench.tester_inst.GTX_CLK
+testbench.tester_inst.RESET
+@200
+-TRANS
+@28
+testbench.transmisor_inst.TX_EN
+testbench.transmisor_inst.TX_OSET_indicate
+@22
+testbench.transmisor_inst.tx_o_set[7:0]
+testbench.transmisor_inst.tx_octet[7:0]
+@28
+testbench.transmisor_inst.U1.transmitting
+testbench.transmisor_inst.U1.tx_even
+@22
+testbench.transmisor_inst.tx_code_group[9:0]
+@200
+-SYNC
+@22
+testbench.synchronization_inst.state[8:0]
+@28
+testbench.synchronization_inst.sync_status
+testbench.synchronization_inst.rx_even
+testbench.synchronization_inst.cgbad
+@200
+-RECIEVER
+@22
+testbench.reciever_inst.state[5:0]
+testbench.reciever_inst.x[9:0]
+testbench.reciever_inst.RXD[7:0]
+@28
+testbench.reciever_inst.RX_DV
+testbench.reciever_inst.check_end
+[pattern_trace] 1
+[pattern_trace] 0

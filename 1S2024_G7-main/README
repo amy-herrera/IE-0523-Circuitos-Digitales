@@ -1,0 +1,18 @@
+Proyecto de Diseño de la Subcapa de Codificación Física (PCS) - IEEE 802.3
+Descripción del Proyecto
+Este proyecto consiste en el diseño de un bloque de la subcapa de codificación física (PCS), de acuerdo con las especificaciones establecidas en la cláusula 36 del estándar IEEE 802.3. El objetivo principal es crear un bloque PCS que incluya las interfaces de entrada y salida según lo descrito en la figura 36-2 del estándar y que las máquinas de estado respondan a los diagramas de estados de la sección 36.2.5.2.
+
+Estructura del Proyecto
+Dado que el diseño del PCS requiere la implementación de varias máquinas de estado, el proyecto se divide en tres bloques distintos, cada uno funcionando como un módulo independiente. Cada módulo tendrá su propio diagrama de bloques y los correspondientes diagramas de estados para cada máquina de estados requerida.
+
+Módulos del Proyecto
+Módulo 1: Bloque de transmisión.
+Módulo 2: Bloque de Sincronización.
+Módulo 3: Bloque Receptor.
+
+
+Configuración en Modo Loopback
+Para las pruebas de diseño, las salidas tx_code_group se conectarán a las entradas rx_code_group, configurando el bloque PCS en modo de loopback. Esto significa que los datos transmitidos por la ruta de TX deben retornar a través del PCS en la dirección opuesta, siguiendo la ruta de RX.
+
+Prueba de Funcionamiento
+La prueba mínima para verificar el correcto funcionamiento del bloque PCS es realizar un loopback enviando una trama completa de Ethernet. Al finalizar la prueba de loopback, los datos enviados por la interfaz TXD deben coincidir exactamente con los datos recibidos en la interfaz RXD. Esto asegurará que la capa PCS no corrompa los datos durante los procesos de sincronización o traducción.
